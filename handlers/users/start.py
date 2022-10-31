@@ -16,7 +16,7 @@ async def get_file_id_p(message: types.Message):
     await message.reply(message.document.file_id)
 
 
-NOTSUB_MESSAGE = "‼Подпишись на канал, чтобы бот заработал‼\n‼     Bot ishlashi uchun kanalga obuna bo'ling  ‼ \n\n👉🏻https://t.me/DarsInformatika👈🏻"
+NOTSUB_MESSAGE = "‼Подпишись на канал, чтобы бот заработал‼\n‼Bot ishlashi uchun kanalga obuna bo'ling‼ \n\n👉🏻https://t.me/DarsInformatika👈🏻"
 
 
 def check_Sub_channel(chat_member):
@@ -41,7 +41,7 @@ Shu bilan birga attestatsiya savollariga tayyorlanishga ko'makchidir
 
 🎥Video - 267 dona 
 📚Kitob - 22 dona (UZ|RU)
-📝Testar - 22 dona
+📝Testlar - 22 dona
 📋Ish rejasi hamma sinflar uchun 
 
 --------------------------------------------------------------------------------------------------
