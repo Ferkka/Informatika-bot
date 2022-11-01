@@ -28,14 +28,6 @@ Sinflar = ReplyKeyboardMarkup(
 klass = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="1️⃣-класс"),
-            KeyboardButton(text="2️⃣-класс"),
-        ],
-        [
-            KeyboardButton(text="3️⃣-класс"),
-            KeyboardButton(text="4️⃣-класс"),
-        ],
-        [
             KeyboardButton(text="5️⃣-класс"),
             KeyboardButton(text="6️⃣-класс"),
         ],
