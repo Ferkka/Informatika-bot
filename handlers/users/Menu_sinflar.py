@@ -222,11 +222,6 @@ async def nazad(call: CallbackQuery):
     await call.message.answer("Siz orqaga qaytingiz", reply_markup=Boshmenu)
 
 
-@dp.callback_query_handler(text="Boshmenuga")
-async def nazad(call: CallbackQuery):
-    await call.message.answer("Siz orqaga qaytingiz", reply_markup=Boshmenu)
-
-
 ###############################################################################################################
 
 
