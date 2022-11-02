@@ -1486,7 +1486,7 @@ async def Test(call: CallbackQuery):
     Test_id9 = "BQACAgIAAxkBAAIoSWNiiH9YPEoHqgAB2f_4_o0GsTodngACYBQAAq3YKEqCpwSLc946MyoE"
     await call.message.answer_document(Test_id9)
     Test_id10 = "BQACAgIAAxkBAAIoS2NiiIgOIFXNX51An1Rc0hBadMABAAMeAAKxmvBKwPPvtvRglUYqBA"
-    await call.message.answer_document(Test_id10)
+    await call.message.answer_document(Test_id10 , reply_markup=Boshmenu)
 
 
 
