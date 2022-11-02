@@ -17,7 +17,7 @@ async def get_file_id_p(message: types.Message):
     await message.reply(message.document.file_id)
 
 
-NOTSUB_MESSAGE = "‼Подпишись на канал, чтобы бот заработал‼\n‼Bot ishlashi uchun kanalga obuna bo'ling‼ \n\n👉🏻https://t.me/DarsInformatika👈🏻"
+NOTSUB_MESSAGE = "‼Подпишись на канал, чтобы бот заработал‼\n‼Bot ishlashi uchun kanalga obuna bo'ling‼ \n\n👉🏻@DarsInformatika👈🏻"
 
 
 def check_Sub_channel(chat_member):
