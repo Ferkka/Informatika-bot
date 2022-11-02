@@ -1512,7 +1512,7 @@ async def Test(call: CallbackQuery):
 ###################################################################################################################
 
 
-@dp.message_handler(text="👩🏻‍🏫Attestatsiya 2022-2023👨🏻‍🏫")
+@dp.message_handler(text="VideoAtt")
 async def Oltibir(message: types.Message):
     await message.answer("Hozir videolar yuborilmoqda👇🏻", reply_markup=keyboard2)
     VDars1 = 'BAACAgIAAxkBAAIV2mMD74hC084vlX35g_iUyhM2ogwEAAJVDgACtlEoSUUAAWwVk7vOuCkE'

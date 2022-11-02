@@ -7,6 +7,7 @@ from aiogram.types import Message, CallbackQuery
 from keyboards.default.StartMenu import *
 from keyboards.inline.adminButton import Yaratuvchi, Yaratuvchiru, Til
 from aiogram.types import ReplyKeyboardRemove
+from keyboards.inline.Birsinfkitoblar import *
 
 keyboard2 = types.ReplyKeyboardRemove()
 
@@ -137,12 +138,12 @@ Admin: @Ferkka""", reply_markup=Yaratuvchi)
         await message.answer("Til Tanglang", reply_markup=Til)
         await message.answer("Tillar yuqoridan ko'rsatilgan", reply_markup=keyboard2)
         await message.delete()
-    elif message.text == "👩🏻‍🏫Attestatsiya 2022-2023👨🏻‍🏫":
-        await message.answer("Videolar hozir yuboriladi"),
+    elif message.text == "👩🏻‍🏫Attestatsiya👨🏻‍🏫":
+        await message.answer("Iltimos qanaqa ma\'lumot kerakligini tanglang", reply_markup=Attmenu),
         await message.delete()
     else:
         await message.answer(
-            "Sizni tushunmadim, Iltimos menyudagi bo\'limidan  tanglang \n / Я вас не понял, Пожалуйста выберите пункт из меню")
+            "‼Sizni tushunmadim, Iltimos menyudagi bo\'limidan tanglang ‼\n ‼Я вас не понял, Пожалуйста выберите пункт из меню‼")
 
 
 @dp.callback_query_handler(text="RusTil")

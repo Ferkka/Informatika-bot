@@ -905,3 +905,18 @@ DavomVideo116ru = InlineKeyboardMarkup(
             InlineKeyboardButton(text="❗Menu❗", callback_data="nazadSinf11ru")
         ],
     ])
+
+#############################################################################################################
+
+Attmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Video📽", callback_data="VideoAtt"),
+        ],
+        [
+            InlineKeyboardButton(text="Testlar📝", callback_data="TestATT"),
+        ],
+        [
+            InlineKeyboardButton(text="❗Menu❗", callback_data="nazadSinf11ru")
+        ],
+    ])
