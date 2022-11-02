@@ -8,7 +8,7 @@ Boshmenu = ReplyKeyboardMarkup(
 
         ],
         [
-            KeyboardButton(text="👩🏻‍🏫Attestatsiya 2022-2023👨🏻‍🏫"),
+            KeyboardButton(text="👩🏻‍🏫Attestatsiya👨🏻‍🏫"),
         ],
         [
             KeyboardButton(text="Изменить язык⚙"),
