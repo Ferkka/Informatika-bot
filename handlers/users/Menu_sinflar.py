@@ -1514,7 +1514,6 @@ async def Test(call: CallbackQuery):
 
 @dp.message_handler(text="VideoAtt")
 async def Oltibir(message: types.Message):
-    await message.answer("Hozir videolar yuborilmoqda👇🏻", reply_markup=keyboard2)
     VDars1 = 'BAACAgIAAxkBAAIV2mMD74hC084vlX35g_iUyhM2ogwEAAJVDgACtlEoSUUAAWwVk7vOuCkE'
     await message.reply_video(VDars1, caption="📹 INFORMATIKA FANIDAN ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI")
     video2 = "BAACAgIAAxkBAAIV3GMD74-in2HMst7klZpKygTNJceRAAJbDgACtlEoSY-MclGb71qHKQQ"
