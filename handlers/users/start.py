@@ -140,7 +140,7 @@ Admin: @Ferkka""", reply_markup=Yaratuvchi)
         await message.delete()
     elif message.text == "👩🏻‍🏫Attestatsiya👨🏻‍🏫":
         await message.answer("👇🏻Iltimos qanaqa ma\'lumot kerakligini tanglang👇🏻", reply_markup=Attmenu),
-        await message.answer("👆🏻Ma'lumotlar yuqorida ko\'rsatilgan👆🏻")
+        await message.answer("👆🏻Ma'lumotlar yuqorida ko\'rsatilgan👆🏻",reply_markup=keyboard2)
         await message.delete()
     else:
         await message.answer(
