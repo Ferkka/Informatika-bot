@@ -1512,44 +1512,44 @@ async def Test(call: CallbackQuery):
 ###################################################################################################################
 
 
-@dp.message_handler(text="VideoAtt")
-async def Oltibir(message: types.Message):
+@dp.callback_query_handler(text="VideoAtt")
+async def Oltibir(call: CallbackQuery):
     VDars1 = 'BAACAgIAAxkBAAIV2mMD74hC084vlX35g_iUyhM2ogwEAAJVDgACtlEoSUUAAWwVk7vOuCkE'
-    await message.reply_video(VDars1, caption="📹 INFORMATIKA FANIDAN ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI")
+    await call.message.reply_video(VDars1, caption="📹 INFORMATIKA FANIDAN ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI")
     video2 = "BAACAgIAAxkBAAIV3GMD74-in2HMst7klZpKygTNJceRAAJbDgACtlEoSY-MclGb71qHKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video2, caption="📹 INFORMATIKA FANIDAN ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI "
     )
     video3 = "BAACAgIAAxkBAAIV3mMD75oYYEvdw2_CEHDLhXBoEk0gAAL_DAACa2gISOWOF8UP43iVKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video3, caption="📹 ATTESTATSIYAGA TUSHGAN ALI, VALI, SOLI, XOLI, TOIR, ZOIR, HALIL MASALA VA MISOLLAR YECHIMI "
     )
     video4 = "BAACAgIAAxkBAAIV4GMD76O_35X4Rgjd27gJc1Cu2Y4tAAKqCwACysSJSFvGGs1KWwt5KQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video4, caption="📹 INFORMATIKA FANIDAN ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI "
     )
     video5 = "BAACAgIAAxkBAAIV4mMD77CtFcnIQm49I8wtpqFUVHEoAAJzCQACAofwSO7jbAABctvFlSkE"
-    await message.answer_video(
+    await call.message.answer_video(
         video5, caption="📹 GRAFIK MA'LUMOTLARNI KODLASH | ATTESTATSIYAGA TUSHGAN SAVOLLAR YECHIMI"
     )
     video6 = "BAACAgIAAxkBAAIV5GMD78mxSsLDPur2RXeXmzJr_BfrAAJiDgACtlEoSR76LEE3xtnhKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video6, caption="📹 INFORMATIKA FANIDAN 2020 YILDA ATTESTATSIYAGA TUSHGAN MISOL VA MASALALAR YECHIMI"
     )
     video7 = "BAACAgIAAxkBAAIV5mMD79X4HNE6qu77tHiaO6wkt9zRAAJnDgACtlEoSaCKATGu4YSgKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video7, caption="📹 2020 YILDA ATTESTATSIYAGA TUSHGAN MISOL VA MASALALAR YECHIMI"
     )
     video8 = "BAACAgIAAxkBAAIV6GMD7-K56I4xSmMGunDkQ9Gw3wHbAAK-CgACntjASMtfGQ1MsXUjKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video8, caption="📹 MODELLASHTIRISH VA DASTURLASH (OBUNACHILAR TOMONIDAN KELGAN SAVOLLAR) "
     )
     video9 = "BAACAgIAAxkBAAIV6mMD7-pqIxhH8fyOIDKymV_NcxqWAAKMCwACysSJSH-x5XpNhnvWKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video9, caption="📹 OBUNACHILARDAN KELGAN SAVOLLAR (-514 NI ICHKI KO’RINISHI, INTERNETDA SO’ROVLAR)"
     )
     video10 = "BAACAgIAAxkBAAIV7GMD7_GvzDxglVVMspRLnwgssxMfAAJyDgACtlEoSSvIIerakL4gKQQ"
-    await message.answer_video(
+    await call.message.answer_video(
         video10, caption="📹 MODELLASHTIRISH VA DASTURLASH. ALI, VALI",
         reply_markup=Att1
     )
