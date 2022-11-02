@@ -222,6 +222,11 @@ async def nazad(call: CallbackQuery):
     await call.message.answer("Siz orqaga qaytingiz", reply_markup=Boshmenu)
 
 
+@dp.callback_query_handler(text="Attnazad")
+async def nazad(call: CallbackQuery):
+    await call.message.answer("Siz orqaga qaytingiz", reply_markup=Attmenu)
+
+
 ###############################################################################################################
 
 
@@ -1459,6 +1464,30 @@ async def Davom6v(call: CallbackQuery):
 
 
 #######################################################################################################################
+
+@dp.callback_query_handler(text="TestATT")
+async def Test(call: CallbackQuery):
+    Test_id1 = "BQACAgIAAxkBAAIoL2NiiByoufVnH9Ga4G-xEtr5uDZyAAJVHQACJQj5STwBjPPV8PKkKgQ"
+    await call.message.answer_document(Test_id1)
+    Test_id2 = "BQACAgIAAxkBAAIoO2NiiCsAAXAoXWfEUHW7q9LydmBU6wACmRsAAgm4iEpzqo_qA9StByoE"
+    await call.message.answer_document(Test_id2)
+    Test_id3 = "BQACAgIAAxkBAAIoPWNiiDk-P-WJI2zRSw3R7TjYpyLiAAKAHwACXHKRSj3YFTAKwJkaKgQ"
+    await call.message.answer_document(Test_id3)
+    Test_id4 = "BQACAgIAAxkBAAIoP2NiiEurIwl9o6paoOgVjTdzEUaDAAJtFAACLBr4SBNkDyIxk0f3KgQ"
+    await call.message.answer_document(Test_id4)
+    Test_id5 = "BQACAgIAAxkBAAIoQWNiiFXlWSE3cQbe5OklFtLpIkFyAAL-GwACYAgoSmXwFvRID9mYKgQ"
+    await call.message.answer_document(Test_id5)
+    Test_id6 = "BQACAgIAAxkBAAIoQ2NiiF-VrU0hw1tTzQPKbkvN5tIJAAMcAAJgCChKIpW6y_Z5F_gqBA"
+    await call.message.answer_document(Test_id6)
+    Test_id7 = "BQACAgIAAxkBAAIoRWNiiGxO43-OTbBqBQABj8ORhyIIcQACAxwAAmAIKEpejW7_FA76LCoE"
+    await call.message.answer_document(Test_id7)
+    Test_id8 = "BQACAgIAAxkBAAIoR2NiiHYX2P-7Cpa5XucAAZdOAAFcNy8AAl8UAAKt2ChKvI2WPq7e_dQqBA"
+    await call.message.answer_document(Test_id8)
+    Test_id9 = "BQACAgIAAxkBAAIoSWNiiH9YPEoHqgAB2f_4_o0GsTodngACYBQAAq3YKEqCpwSLc946MyoE"
+    await call.message.answer_document(Test_id9)
+    Test_id10 = "BQACAgIAAxkBAAIoS2NiiIgOIFXNX51An1Rc0hBadMABAAMeAAKxmvBKwPPvtvRglUYqBA"
+    await call.message.answer_document(Test_id10)
+
 
 
 @dp.callback_query_handler(text="5Testru")
