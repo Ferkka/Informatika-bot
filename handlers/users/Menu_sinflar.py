@@ -217,7 +217,7 @@ async def nazaddeff(message: types.Message):
     await message.delete()
 
 
-@dp.callback_query_handler(text="Attnazad")
+@dp.callback_query_handler(text="Attorqaga")
 async def nazad(call: CallbackQuery):
     await call.message.answer("Siz orqaga qaytingiz", reply_markup=Boshmenu)
 
