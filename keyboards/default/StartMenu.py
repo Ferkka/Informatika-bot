@@ -11,6 +11,9 @@ Boshmenu = ReplyKeyboardMarkup(
             KeyboardButton(text="👩🏻‍🏫Attestatsiya👨🏻‍🏫"),
         ],
         [
+            KeyboardButton(text="Programalar🖥"),
+        ],
+        [
             KeyboardButton(text="Изменить язык⚙"),
         ],
     ],
@@ -24,6 +27,9 @@ ruBoshmenu = ReplyKeyboardMarkup(
             KeyboardButton(text="Общие уроки📚"),
             KeyboardButton(text="инфо🧾"),
 
+        ],
+                [
+            KeyboardButton(text="Программы🖥"),
         ],
         [
             KeyboardButton(text="Tilni o\'zgartirish⚙"),
