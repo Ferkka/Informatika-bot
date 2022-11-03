@@ -8,6 +8,7 @@ from keyboards.default.StartMenu import *
 from keyboards.inline.adminButton import Yaratuvchi, Yaratuvchiru, Til
 from aiogram.types import ReplyKeyboardRemove
 from keyboards.inline.Birsinfkitoblar import *
+from keyboards.inline.programms import Program
 
 keyboard2 = types.ReplyKeyboardRemove()
 
@@ -141,6 +142,10 @@ Admin: @Ferkka""", reply_markup=Yaratuvchi)
     elif message.text == "👩🏻‍🏫Attestatsiya👨🏻‍🏫":
         await message.answer("👇🏻Iltimos qanaqa ma\'lumot kerakligini tanglang👇🏻", reply_markup=Attmenu),
         await message.answer("👆🏻Ma'lumotlar yuqorida ko\'rsatilgan👆🏻",reply_markup=keyboard2)
+        await message.delete()
+    elif message.text == "Programalar🖥":
+        await message.answer("👇🏻Iltimos qanaqa Programa kerakligini tanglang👇🏻", reply_markup=Program)
+        await message.answer("👆🏻Programalar yuqorida ko\'rsatilgan👆🏻")
         await message.delete()
     else:
         await message.answer(
