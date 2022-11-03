@@ -6,7 +6,7 @@ from keyboards.default.Boshmenu import klass, Sinflar
 from aiogram.types import ReplyKeyboardRemove
 from keyboards.default.StartMenu import Boshmenu, ruBoshmenu
 from keyboards.inline.adminButton import Yaratuvchi
-from keyboards.inline.programms import *
+from keyboards.inline.programms import Program, Programnazad
 
 keyboard2 = types.ReplyKeyboardRemove()
 
