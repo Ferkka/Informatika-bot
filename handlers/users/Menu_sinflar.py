@@ -3138,4 +3138,5 @@ async def Davom6v(call: CallbackQuery):
 async def Program(call: CallbackQuery):
     Program = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
     await call.message.reply_document(Program, reply_markup=Programnazad)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻")
     await call.message.delete
