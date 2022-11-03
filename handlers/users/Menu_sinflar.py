@@ -6,6 +6,7 @@ from keyboards.default.Boshmenu import klass, Sinflar
 from aiogram.types import ReplyKeyboardRemove
 from keyboards.default.StartMenu import Boshmenu, ruBoshmenu
 from keyboards.inline.adminButton import Yaratuvchi
+from keyboards.inline.programms import * 
 
 keyboard2 = types.ReplyKeyboardRemove()
 
@@ -3125,3 +3126,10 @@ async def Davom6v(call: CallbackQuery):
     await call.message.answer_video(
         video4, caption="Урок 54. Закрепление", reply_markup=DavomVideo116ru
     )
+
+
+
+@dp.callback_query_handler(text="scratch")
+async def Program(call: CallbackQuery):
+    Program = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
+    await call.message.reply_document(Program)
