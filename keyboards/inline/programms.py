@@ -76,10 +76,3 @@ Program = InlineKeyboardMarkup(
         ],    
     ])
 
-
-Programnazad = InlineKeyboardMarkup(
-    inline_keyboard=[
-    [
-            InlineKeyboardButton(text="❗ Menu ❗", callback_data="Programorqaga"),
-    ],  
-    ])

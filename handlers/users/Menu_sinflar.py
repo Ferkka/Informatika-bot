@@ -6,7 +6,7 @@ from keyboards.default.Boshmenu import klass, Sinflar
 from aiogram.types import ReplyKeyboardRemove
 from keyboards.default.StartMenu import Boshmenu, ruBoshmenu
 from keyboards.inline.adminButton import Yaratuvchi
-from keyboards.inline.programms import Program, Programnazad
+from keyboards.inline.programms import Program
 
 keyboard2 = types.ReplyKeyboardRemove()
 
@@ -3137,6 +3137,6 @@ async def Davom6v(call: CallbackQuery):
 @dp.callback_query_handler(text="scratch")
 async def Program(call: CallbackQuery):
     Program = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
-    await call.message.reply_document(Program, reply_markup=Programnazad)
-    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻")
+    await call.message.reply_document(Program)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
     await call.message.delete
