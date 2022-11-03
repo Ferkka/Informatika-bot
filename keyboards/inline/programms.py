@@ -72,6 +72,14 @@ Program = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Fine Reader📃", callback_data="FineReader"),
         ],
         [
-            InlineKeyboardButton(text="❗Menu❗", callback_data="Attnazad"),
+            InlineKeyboardButton(text="❗Menu❗", callback_data="Attorqaga"),
         ],    
+    ])
+
+
+Programnazad = InlineKeyboardMarkup(
+    inline_keyboard=[
+    [
+            InlineKeyboardButton(text="❗Menu❗", callback_data="Programorqaga"),
+    ],  
     ])

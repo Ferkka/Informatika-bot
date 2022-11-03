@@ -228,6 +228,11 @@ async def nazad(call: CallbackQuery):
     await call.message.answer("Siz orqaga qaytingiz", reply_markup=Attmenu)
 
 
+@dp.callback_query_handler(text="Programorqaga")
+async def nazad(call: CallbackQuery):
+    await call.message.answer("Siz orqaga qaytingiz", reply_markup=Program)
+
+
 ###############################################################################################################
 
 
@@ -3132,4 +3137,5 @@ async def Davom6v(call: CallbackQuery):
 @dp.callback_query_handler(text="scratch")
 async def Program(call: CallbackQuery):
     Program = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
-    await call.message.reply_document(Program)
+    await call.message.reply_document(Program, reply_markup=Programnazad)
+    await call.message.delete
