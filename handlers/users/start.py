@@ -147,7 +147,7 @@ Admin: @Ferkka""", reply_markup=Yaratuvchi)
         await message.answer("👇🏻Iltimos qanaqa Programa kerakligini tanglang👇🏻", reply_markup=Program)
         await message.answer("👆🏻Programalar yuqorida ko\'rsatilgan👆🏻", reply_markup=keyboard2)
         await message.delete()
-    elif message.text == "Programalar🖥":
+    elif message.text == "Программы🖥":
         await message.answer("👇🏻Выберите программу👇🏻", reply_markup=Programru)
         await message.answer("👆🏻Программы указаны наверху👆🏻", reply_markup=keyboard2)
         await message.delete()
