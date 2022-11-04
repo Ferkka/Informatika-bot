@@ -3148,7 +3148,7 @@ async def Program(call: CallbackQuery):
     Program2 = "BQACAgIAAxkBAAIslmNktupZnww6oafAh7KbCvLfFq7EAAIcIAACo_gYSQ6oOMnvr4RxKgQ"
     await call.message.reply_document(Program1)
     await call.message.reply_document(Program2)
-    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.answer("👆🏻Programalar yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
     await call.message.delete
 
 
