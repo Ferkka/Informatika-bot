@@ -3136,7 +3136,183 @@ async def Davom6v(call: CallbackQuery):
 
 @dp.callback_query_handler(text="scratch")
 async def Program(call: CallbackQuery):
-    Program = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
-    await call.message.reply_document(Program)
+    Program1 = "BQACAgIAAxkBAAIrdGNkAr0DBP8X32MlFt4tPGTGinnQAAKkBwACU77ZSpVS9ptzYtdnKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Mo")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIreGNkAu0ykrUrsOzISIZg6htm0mn-AAJkHAACAzgRSYu9Veel9lCtKgQ"
+    Program2 = "BQACAgIAAxkBAAIrfGNkAxckENjozpWbyxcSZxsD988hAAIcIAACo_gYSQ6oOMnvr4RxKgQ"
+    await call.message.reply_document(Program1, Program2)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="OBS")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrgGNkAz2B24TYFqji92xdD79o5kgJAAKdIAACTv3hSLOwww0QxYfBKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Python")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrhGNkA1sVc-xZ-tqKEA5iPViuCbsCAALzEQACBNE5SRGK56lNXwQfKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Movavi")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIriGNkA3C5VBRDkthyELmglVfsvFMQAAJEFgACIP84SuWYBL9vzpgnKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="APr")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrjGNkA6DzhXlPPmWc4kL3JAU-aelrAAJ_BwACcQRZSOacm2xqg9aFKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Aae")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIr8mNkKc5obOOOwa5Xi3wAAbQwjfkvCAACaBAAAswHeEhluQHQyCaZUSoE"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Ps")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrkGNkA7h6e4ZEXFuwNNL8gcVVqGGSAAL-IAACfIkYS-rtDESUGeldKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Iobit")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrlGNkA-yIYzUFTZWIPQzl0Wf_aqYRAALWIAACfIkYS1Qqu7mfJ13wKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="AIMP")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrmWNkBAthCdtB5xun2I9X8yST2iqrAALiIAACfIkYS20Mqeq6q-x1KgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Potp")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIroGNkFmWxdUt8I-hCd99tTURWIevfAALjIAACfIkYSxwhpiMkot1gKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="WhatsApp")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrpGNkFohSaO2DlG5NEWZm7APuHqQTAALkIAACfIkYS0Z86HE0MzuGKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Tools")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrqGNkFzERQzWjiH349lqcaMZbixaDAAKnDgACPY4JS3Dp7VWQ-dexKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="WebcamMax")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrrGNkF0zb2aysMFk2LU8vwA4j6C6fAAKbDQACeWGASk6LgRraZGzNKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Mp3Cut")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrsWNkF7EqQ59xw-wYUae7MvcZIVTNAAL_IAACfIkYS1_ldQxz_yHQKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Winrar")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrtmNkF9ht72-A9P3XWGp_Dwbi1v8zAAICIQACfIkYS9uCmnxE00YWKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Chrome")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrumNkGE2WTqIOEQvSdh8EafUfdaI6AAIHIQACfIkYS82_zMJWaZD2KgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Torrent")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrvmNkGKvfIvCZj6_BiyF_AudDh19kAAIJIQACfIkYS-1cdBxFLZX4KgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Total")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrwmNkGTi8Eh3LcOdKgU5boMDtPE2tAAILIQACfIkYS4AVPn5Ts4o5KgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="FastStone")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrx2NkGWHTo0hywX98a42zAAEQ8QprRAACDSEAAnyJGEuJYPApDPwXRioE"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Foxit")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIrzGNkGYvSdHj1YWHa1wW2XeKt5UkCAAIUIQACfIkYS_3yWeJeFk3UKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+
+@dp.callback_query_handler(text="Vuescan")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIr0GNkGak-q_EVhmukRl1PqrYXvBzVAAIWIQACfIkYSzCbzHNexjKYKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
+    await call.message.delete
+
+@dp.callback_query_handler(text="FineReader")
+async def Program(call: CallbackQuery):
+    Program1 = "BQACAgIAAxkBAAIr1GNkGcRZEPwoljUYU4wtbiB3QIncAAIeIQACfIkYS5haDWwS5R2SKgQ"
+    await call.message.reply_document(Program1)
     await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
     await call.message.delete
