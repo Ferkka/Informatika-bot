@@ -3145,8 +3145,9 @@ async def Program(call: CallbackQuery):
 @dp.callback_query_handler(text="Mo")
 async def Program(call: CallbackQuery):
     Program1 = "BQACAgIAAxkBAAIreGNkAu0ykrUrsOzISIZg6htm0mn-AAJkHAACAzgRSYu9Veel9lCtKgQ"
-    Program2 = "BQACAgIAAxkBAAIrfGNkAxckENjozpWbyxcSZxsD988hAAIcIAACo_gYSQ6oOMnvr4RxKgQ"
-    await call.message.reply_document(Program1, Program2)
+    Program2 = "BQACAgIAAxkBAAIslmNktupZnww6oafAh7KbCvLfFq7EAAIcIAACo_gYSQ6oOMnvr4RxKgQ"
+    await call.message.reply_document(Program1)
+    await call.message.reply_document(Program2)
     await call.message.answer("👆🏻Programa yuqorida yuborilgan👆🏻", reply_markup=Boshmenu)
     await call.message.delete
 
