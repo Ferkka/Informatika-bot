@@ -235,7 +235,7 @@ async def nazad(call: CallbackQuery):
 
 @dp.callback_query_handler(text="Attorqagaru")
 async def nazad(call: CallbackQuery):
-    await call.message.answer("Siz orqaga qaytingiz", reply_markup=ruBoshmenu)
+    await call.message.answer("Вы вернулись назад", reply_markup=ruBoshmenu)
 
 
 ###############################################################################################################
