@@ -111,7 +111,7 @@ ruDarslik11 = InlineKeyboardMarkup(
 Darslik5 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="5Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="5Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="5Kitobuz"),
         ],
         [
@@ -127,7 +127,7 @@ Darslik5 = InlineKeyboardMarkup(
 Darslik6 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="6Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="6Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="6Kitobuz"),
         ],
         [
@@ -142,7 +142,7 @@ Darslik6 = InlineKeyboardMarkup(
 Darslik7 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="7Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="7Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="7Kitobuz"),
         ],
         [
@@ -157,7 +157,7 @@ Darslik7 = InlineKeyboardMarkup(
 Darslik8 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="8Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="8Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="8Kitobuz"),
         ],
         [
@@ -172,7 +172,7 @@ Darslik8 = InlineKeyboardMarkup(
 Darslik9 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="9Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="9Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="9Kitobuz"),
         ],
         [
@@ -187,7 +187,7 @@ Darslik9 = InlineKeyboardMarkup(
 Darslik10 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="10Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="10Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="10Kitobuz"),
         ],
         [
@@ -203,7 +203,7 @@ Darslik10 = InlineKeyboardMarkup(
 Darslik11 = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Video darslik📽", callback_data="11Video"),
+            InlineKeyboardButton(text="Video darslar📽", callback_data="11Video"),
             InlineKeyboardButton(text="Kitoblar📚", callback_data="11Kitobuz"),
         ],
         [
