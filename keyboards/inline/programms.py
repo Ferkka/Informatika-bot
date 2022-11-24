@@ -9,7 +9,7 @@ Program = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Microsoft Office 2013-2019📄", callback_data="Mo"),
         ],
         [
-            InlineKeyboardButton(text="OBS studio🎬", callback_data="OBS"),
+            InlineKeyboardButton(text="OBS Studio🎬", callback_data="OBS"),
         ],
         [
             InlineKeyboardButton(text="Python🐍", callback_data="Python"),
@@ -18,7 +18,7 @@ Program = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Movavi Video Editor🎥", callback_data="Movavi"),
         ],
         [
-            InlineKeyboardButton(text="Adobe Premiere Pro📹", callback_data="APr"),
+            InlineKeyboardButton(text="Adobe Premiere Pro📹", callback_data="APr"), 
         ],
         [
             InlineKeyboardButton(text="Adobe After Effects🎇", callback_data="Aae"),
