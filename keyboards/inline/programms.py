@@ -9,7 +9,7 @@ Program = InlineKeyboardMarkup(
             InlineKeyboardButton(text="Microsoft Office 2013-2019📄", callback_data="Mo"),
         ],
         [
-            InlineKeyboardButton(text="OBS Studio🎬", callback_data="OBS"),
+            InlineKeyboardButton(text="OBS studio🎬", callback_data="OBS"),
         ],
         [
             InlineKeyboardButton(text="Python🐍", callback_data="Python"),
